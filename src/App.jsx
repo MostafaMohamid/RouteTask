@@ -27,8 +27,12 @@ function App() {
 
   return (
     <>
-      <TableData> </TableData>
-      <BarChart></BarChart>
+    <div className='main py-4'>
+      <h1 className='w-100 text-center fw-bold text-white'> Customer & Transactions </h1>
+    <TableData> </TableData>
+    <BarChart></BarChart>
+    </div>
+      
     </>
   );
 }

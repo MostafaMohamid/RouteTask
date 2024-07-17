@@ -90,8 +90,8 @@ export default function TableData() {
                         </tr>
                         <tr>
                             <th></th>
-
-                        </tr>
+<th></th>
+    <th></th>                    </tr>
                     </thead>
                     <tbody>
                         {(filterdUsers && searchAmount ? filterdUsers : searchCustomers)?.map((customer) => (
